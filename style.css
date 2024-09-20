@@ -1,0 +1,35 @@
+/*---global presets---*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", sans-serif;
+}
+
+/*---container styling---*/
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+  gap: 5px;
+}
+
+/*---colorbox styling---*/
+#colorbox {
+  width: 100px;
+  height: 15px;
+  background-color: transparent;
+}
+
+/**---changecolorbtn styling---*/
+#changecolorbtn {
+  font-size: 12px;
+  font-weight: 300px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5ms;
+}
